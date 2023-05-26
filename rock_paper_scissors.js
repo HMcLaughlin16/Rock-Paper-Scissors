@@ -28,6 +28,7 @@ function round(playerSelection, computerSelection) {
                 }
             }
         }
+    }
     if (choice1 === "Scissors") {
         if (choice2 === "Rock") {
             return "Rock wins!";
