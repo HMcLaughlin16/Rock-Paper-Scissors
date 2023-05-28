@@ -1,4 +1,4 @@
-const getComputerChoice = ["Paper", "Scissors", "Rock"];
+const getComputerChoice = [/"Paper"/i, /"Scissors"/i, /"Rock"/i];
     const randGetComputerChoice = getComputerChoice[Math.round(Math.random() * getComputerChoice.length)];
     console.log(randGetComputerChoice, getComputerChoice[randGetComputerChoice]);
 
