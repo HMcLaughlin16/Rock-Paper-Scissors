@@ -1,3 +1,5 @@
+const prompt = require("prompt-sync")();
+
 const getComputerChoice = [/"Paper"/i, /"Scissors"/i, /"Rock"/i];
     const randGetComputerChoice = getComputerChoice[Math.round(Math.random() * getComputerChoice.length)];
     console.log(randGetComputerChoice, getComputerChoice[randGetComputerChoice]);
@@ -44,8 +46,16 @@ function round(playerSelection, computerSelection) {
             }
         }
     }
+    return;
 }
 
-const playerSelection = /"Rock"/i;
-const computerSelection = randGetComputerChoice;
-console.log(round(playerSelection, computerSelection));
+function game() {
+    function round() {
+        for (i = 0; i < 6; i++) {
+            console.log(round(playerSelection, computerSelection));
+        }
+    }
+}
+
+let answer = prompt("Select one, please.");
+console.log(answer);
