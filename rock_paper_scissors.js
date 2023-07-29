@@ -49,9 +49,24 @@ function round(playerSelection, computerSelection) {
     return;
 }
 
+const rock = document.querySelector("#rock");
+rock.addEventListener("click", () => {
+    alert("Rock");
+});
+
+const paper = document.querySelector("#paper");
+paper.addEventListener("click", (), => {
+    alert("Paper");
+});
+
+const scissors = document.querySelector("#scissors");
+scissors.addEventListener("click", (), => {
+    alert("Scissors");
+});
+
 function game() {
     function round() {
-        for (i = 0; i < 6; i++) {
+        for (i = 0; i++) {
             console.log(round(playerSelection, computerSelection));
         }
     }
