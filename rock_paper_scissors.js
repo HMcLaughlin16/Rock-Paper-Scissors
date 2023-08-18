@@ -50,27 +50,27 @@ function round(playerSelection, computerSelection) {
 }
 
 const rock = document.querySelector("#rock");
-rock.addEventListener("click", () => {
+document.getElementById(#rock).addEventListener("click", (), => {
     alert("Rock");
 });
 
 const paper = document.querySelector("#paper");
-paper.addEventListener("click", (), => {
+document.getElementById(#paper).addEventListener("click", (), => {
     alert("Paper");
 });
 
 const scissors = document.querySelector("#scissors");
-scissors.addEventListener("click", (), => {
+document.getElementById(#scissors).addEventListener("click", (), => {
     alert("Scissors");
 });
 
 function game() {
     function round() {
-        for (i = 0; i++) {
-            console.log(round(playerSelection, computerSelection));
+        for (i = 0; i++; i < 6) {
+            document.getElementById(#results).addEventListener('click');
+            return `${results} is the winner!`;
         }
     }
 }
 
 let answer = prompt("Select one, please.");
-console.log(answer);
